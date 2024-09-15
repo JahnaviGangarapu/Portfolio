@@ -1,10 +1,11 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink,Img} from './NavbarStyledComponent'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import IconImg from '../../images/icon.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +15,8 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-          <Span>PORTFOLIO</Span>
+          
+          <Img src={IconImg} alt="Icon-image" />
           </a>
         </NavLogo>
         <MobileIcon>
