@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/JahnaviGangarapu/Portfolio.git/static/css/main.ef44447a.css",
+    "main.js": "/JahnaviGangarapu/Portfolio.git/static/js/main.974cf80c.js",
+    "static/media/HeroImage.jpg": "/JahnaviGangarapu/Portfolio.git/static/media/HeroImage.4a72c2d69fc7aa8b9780.jpg",
+    "index.html": "/JahnaviGangarapu/Portfolio.git/index.html",
+    "main.ef44447a.css.map": "/JahnaviGangarapu/Portfolio.git/static/css/main.ef44447a.css.map",
+    "main.974cf80c.js.map": "/JahnaviGangarapu/Portfolio.git/static/js/main.974cf80c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef44447a.css",
+    "static/js/main.974cf80c.js"
+  ]
+}
